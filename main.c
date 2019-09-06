@@ -148,7 +148,7 @@ void draw(void)
         string[32] = 0;
         print_string(string);
     }
-    glRasterPos2i(20, 100);
+    glRasterPos2i(100, 100);
     sprintf(string, "Two bits walk into a bar and join their six friends for a byte %d", 42);
     print_string(string);
     glFlush();
